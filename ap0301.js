@@ -57,6 +57,7 @@ function init() {
   const renderer = new THREE.WebGLRenderer();
   renderer.setSize( window.innerWidth, window.innerHeight );
   renderer.setClearColor( 0x104040 );
+  
   document.getElementById("WebGL-output")
     .appendChild(renderer.domElement);
 
